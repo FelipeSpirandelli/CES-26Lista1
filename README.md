@@ -31,3 +31,7 @@ criar um site harmonioso.
 A responsividade que fiz foi bem simples. Apenas colocado termos da horizontal para vertical.
 Isso ja facilita bastante na hora de visualizar. Na realidade, também é necessário mudar margens,
 tamanho de fonte e disposição, mas isso requer uma estrutura de código complicada em html puro
+
+### Deploy
+
+O deploy está no (link)[https://felipespirandelli.github.io/CSI-28Lista1/home.html]
