@@ -7,22 +7,31 @@
     <title>Escola</title>
 </head>
 
+<style type="text/css">
+    @media screen and (max-width:800px) {
+        .flex_on_phone {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+
 <body style="margin: 0; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
     <nav style="display: flex;
         flex-grow: 1;
         width: 100%;
-        flex-direction: row;
         justify-content: space-between;
         margin-left: 2rem;
-        max-width: 1440px;">
+        max-width: 1440px;"
+        class="flex_on_phone">
         <a href="./home.html"><img style="width: 70px; height: auto" src="livro.png" /></a>
         <ul style="  list-style-type: none;
         padding: 0;
         margin: 0;
         display: flex;
-        flex-direction: row;
         gap: 30px;
-        align-items: center;">
+        align-items: center;"
+        class="flex_on_phone">
             <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
                 href="./alunos.html">Alunos</a>
             <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"

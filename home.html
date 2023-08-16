@@ -7,22 +7,39 @@
     <title>Escola</title>
 </head>
 
+<style type="text/css">
+    @media screen and (max-width:800px) {
+        .flex_on_phone {
+            flex-direction: column;
+            align-items: center;
+        }
+        .image_on_phone {
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 800px){
+        .image_on_large {
+            width: 50%;
+        }
+    }
+</style>
+
 <body style="margin: 0; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
     <nav style="display: flex;
         flex-grow: 1;
         width: 100%;
-        flex-direction: row;
         justify-content: space-between;
         margin-left: 2rem;
-        max-width: 1440px;">
-        <a href="./home.html"><img style="width: 70px; height: auto" src="livro.png"/></a>
+        max-width: 1440px;"
+        class="flex_on_phone">
+        <a href="./home.html"><img style="width: 70px; height: auto" src="livro.png" /></a>
         <ul style="  list-style-type: none;
         padding: 0;
         margin: 0;
         display: flex;
-        flex-direction: row;
         gap: 30px;
-        align-items: center;">
+        align-items: center;"
+        class="flex_on_phone">
             <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
                 href="./alunos.html">Alunos</a>
             <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
@@ -32,8 +49,8 @@
         </ul>
     </nav>
     <div style="max-width: 1440px;">
-        <div style="display: flex; flex-direction: row;">
-            <img src="631.jpg" style="width: 50%" />
+        <div style="display: flex;" class="flex_on_phone">
+            <img src="631.jpg" class="image_on_large image_on_phone"/>
             <div style="margin-left: 20px;">
                 <p style="font-size: large;"> Local perfeito para aprendizado</p>
                 <p style="font-size: large;"> Alunos estudiosos</p>
@@ -48,7 +65,7 @@
     </div>
     <div style="width: 100%; max-width: 1440px;">
         <h3>Veja o que falam </h3>
-        <div style="display: flex; flex-direction: row;">
+        <div style="display: flex;" class="flex_on_phone">
             <div style="background-color: darkcyan; color: white; width: 200px; height: 200px; border-radius: 100px;
                 margin: auto;">
                 <p style="margin: 30px">
