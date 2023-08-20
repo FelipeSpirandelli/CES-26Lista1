@@ -4,7 +4,9 @@ Foi usado html puro para fazer o projeto, devido a simplicidade. O desenho das p
 foi feito enquanto programava, devido à falta de tempo para criar um design e iterar 
 em cima.
 Não gostaria de copiar o site da escola, porque não tenho acesso às páginas individuais
-de alunos, professores ou administração.
+de alunos, professores ou administração.Porém, copiei a página inicial com certa semalhança.
+A referência é [link](https://www.colegioarena.com.br/).
+
 
 ## Dificuldades
 
@@ -23,7 +25,7 @@ acaba se tornando uma dificuldade. Acho que mais que programar em css, o problem
 o que devemos fazer. Não basta colocar uma cor aleatória, porque ela não fica estética. 
 
 Recentemente, fiz um site de single application usando next com design já pronto. Ele se
-encontra em [link](https://faroltech.com/). Veja que com o design pronto, é mais fácil 
+encontra em [link](https://faroltech.com/). Veja que, com o design pronto, é mais fácil 
 criar um site harmonioso.
 
 ### Responsividade
