@@ -10,21 +10,29 @@
 <style type="text/css">
     @media screen and (max-width:800px) {
         .flex_on_phone {
-            align-items: center;
             flex-direction: column;
+            align-items: center;
+        }
+        .image_on_phone {
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 800px){
+        .image_on_large {
+            width: 50%;
         }
     }
 </style>
 
 <body style="margin: 0; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
     <nav style="display: flex;
-        flex-grow: 1;
         width: 100%;
         justify-content: space-between;
-        margin-left: 2rem;
-        max-width: 1440px;"
+        max-width: 1000px;
+        margin-top: 20px;
+        margin-bottom: 20px;"
         class="flex_on_phone">
-        <a href="./home.html"><img style="width: 70px; height: auto" src="livro.png" /></a>
+        <a href="./home.html"><img style="width: 200px; height: auto" src="arena.png" /></a>
         <ul style="  list-style-type: none;
         padding: 0;
         margin: 0;
@@ -32,11 +40,11 @@
         gap: 30px;
         align-items: center;"
         class="flex_on_phone">
-            <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
+            <a style="text-decoration: none; color: #17a2b8; font-size: x-large; font-weight: 600;"
                 href="./alunos.html">Alunos</a>
-            <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
+            <a style="text-decoration: none; color: #17a2b8; font-size: x-large; font-weight: 600;"
                 href="./professores.html">Professores</a>
-            <a style="text-decoration: none; color: black; font-size: x-large; font-weight: 600;"
+            <a style="text-decoration: none; color: #17a2b8; font-size: x-large; font-weight: 600;"
                 href="./administracao.html">Administração</a>
         </ul>
     </nav>
@@ -64,13 +72,30 @@
         <input type="submit" value="Enviar"
             style="padding: 10px; background-color: darkcyan; color: white; border: 0; border-radius: 5px;">
     </div>
-    <footer style="background-color:darkcyan; color: white; width: 100%; margin-top: 20px;">
-        <div style="max-width: 1440px; padding: 20px;">
-            <h4>Fale conosco em (54) 87545-5842</h4>
-            <p>Escola 2023. All rights reserved</p>
-            <a href="https://www.colegioarena.com.br/">Referência</a>
+    <div style="margin-top: 20px; background-color: #f8f9fa; width: 100%; padding: 30px; color: black; display:flex; justify-content: center;">
+        <div style="max-width: 1440px; display: flex; gap: 170px; justify-content: center;" class="flex_on_phone">
+            <div style="display: flex; flex-direction: column; max-width: 300px;">
+                <p>Voltar ao topo</p>
+                <p>Nossa história</p>
+                <p>Proposta pedagógica</p>
+                <p>Ensino Médio</p>
+                <p>Enem e Pré-vestibular</p>
+                <p>Obras Literárias 2023</p>
+                <p>Calendário acadêmico</p>
+                <p>Arena virtual</p>
+                <p>Contato</p>
+                <p>Termos de Uso</p>
+                <p>Política de Privacidade</p>
+            </div>
+            <div style="display: flex; flex-direction: column; max-width: 300px;">
+                <p>Colegio Arena. Direitos reservados</p>
+            </div>
+            <div style="display: flex; flex-direction: column; max-width: 300px;">
+                <img src="arena.png">
+                <p>Colegio Arena. Direitos reservados</p>
+            </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>
